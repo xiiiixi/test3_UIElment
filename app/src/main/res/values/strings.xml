@@ -1,0 +1,24 @@
+<resources>
+    <string name="ListView">ListView</string>
+    <string name="AlertDialog">AlertDialog</string>
+    <string name="XMLMenu">XMLMenu</string>
+    <string name="ActionModeMenu">ActionModeMenu</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Sign_in">显示自定义对话框</string>
+    <string name="Cancel">Cancel in</string>
+    <string name="font_size">字体大小</string>
+    <string name="font10">10号字</string>
+    <string name="font16">16号字</string>
+    <string name="font20">20号字</string>
+    <string name="font_color">字体颜色</string>
+    <string name="red_title">红色</string>
+    <string name="black_title">黑色</string>
+    <string name="plain_item">普通菜单项</string>
+    <string name="content_text">用于测试的文本</string>
+    <string name="app_name">RvSelectDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="action_delete">删除</string>
+    <string name="action_choose_all">选择</string>
+</resources>

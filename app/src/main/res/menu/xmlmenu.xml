@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--根元素，无任何属性-->
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--定义菜单项-->
+    <item
+        android:title="@string/font_size">
+    <!--子菜单-->
+    <menu>
+        <!--定义一组单选菜单项-->
+        <group>
+            <!--定义多个菜单项-->
+            <item
+                android:id="@+id/font_10"
+                android:title="@string/font10"/>
+            <item
+                android:id="@+id/font_16"
+                android:title="@string/font16"/>
+            <item
+                android:id="@+id/font_20"
+                android:title="@string/font20"/>
+        </group>
+    </menu>
+    </item>
+
+    <!--定义一个普通菜单项-->
+
+
+    <!--定义一组普通菜单项-->
+    <item
+        android:title="@string/font_color">
+    <menu>
+        <group>
+            <!--定义两个菜单项-->
+            <item
+                android:id="@+id/red_font"
+                android:title="@string/red_title" />
+            <item
+                android:title="@string/black_title"
+                android:id="@+id/black_font"/>
+        </group>
+    </menu>
+    </item>
+    <item
+        android:id="@+id/plain_item"
+        android:title="@string/plain_item" />
+</menu>
